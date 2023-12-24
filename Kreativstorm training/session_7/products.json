@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Product A",
+        "price": 25.99,
+        "category": "Electronics"
+    },
+    {
+        "name": "Product B",
+        "price": 10.50,
+        "category": "Clothing"
+    },
+    {
+        "name": "Product C",
+        "price": 49.95,
+        "category": "Electronics"
+    },
+    {
+        "name": "Product D",
+        "price": 5.99,
+        "category": "Books"
+    },
+    {
+        "name": "Product E",
+        "price": 15.75,
+        "category": "Clothing"
+    },
+    {
+        "name": "Product F",
+        "price": 99.99,
+        "category": "Electronics"
+    }
+]

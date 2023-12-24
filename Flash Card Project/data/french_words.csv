@@ -1,0 +1,40 @@
+Code,Explanation
+"What does ""try"" do?",it says first try this
+"What does ""except"" do?",it says unless you find an error
+"What does ""except FileNotFoundError"" do?",unless you encounter this error FileNotFoundError
+"What does ""else"" do?",if the try block succeeds do this
+"What does ""finally"" do?",no matter what happens do this
+"What does ""raise"" do?",create your own exceptions
+"in JSON what is ""write""",json.dump()
+"in JSON what is ""read""",json.load()
+"in JSON what is ""update""",json.update()
+How do you read a csv?,"data=pandas.read_csv(""file"")"
+How do you print a column with pandas?,"print(data[""col_name""])"
+How do you turn data into a dict?,data_dict=data.to_dict()
+How do you turn a column into a list?,"col_list=data[""column""].to_list()"
+How do you prin a specific cell?,"print(data[data.col_name == ""row_name""])"
+How do you turn data into dataframe?,new_data=pandas.DataFrame(data_dict)
+How do you turn data into a .csv?,"data.to_csv(""new_file_name.csv"")"
+How do you open a file?,"with open(""file.extension"") as file:"
+How do you read a file?,"with open(""file.extension"", ""r"") as file:"
+How do you write in a file?,"with open(""file.extension"", ""w"") as file:"
+How do you append a file?,"with open(""file.extension"", ""a"") as file:"
+How do you create a window with Tkinter?,window=Tk()
+How do you overlap things with Tkinter?,"canvas = Canvas(width=…, height=…, bg=…, highlightthickness=…)"
+How do you create an place an image with Tkinter?,"tomato_img=PhotoImage(file=""tomato.png"" -> canvas.create_image(100, 100, image=tomato_img)"
+How do you create a Label with Tkinter?,new_label=Label()
+How do you create text with Tkinter?,"title=canvas.create_text(100, 100, text=""…"", font=(…))"
+How do you place something on a canvas with Tkinter?,canvas.grid() - canvas.place() - canvas.pack()
+How do you create an entry with Tkinter?,entry=Entry(width=…)
+How do you add some default text to an entry with Tkinter?,"entry.insert(END, string=""some default text"")"
+How do you get the text of an entry with Tkinter?,entry.get()
+How do you go up a folder?,../document.doc
+How do you search in the current folder?,./some.ppt
+How do you get text file data into list?,"with open(""file.txt"") as file: -> some_text = file.readlines()"
+How do you get the today date and time?,import datetime as dt -> now = dt.datetime.now()
+How do you get the weekday?,import datetime as dt -> now = dt.datetime.now() -> weekday = now.weekday()
+"To send emails, what module do you have to import?",import smtplib
+How do you set a connection with the smtplib?,"with smtplib.SMTP(""smtp.gmail.com"", port=587) as connection:"
+How do you secure a connection with smtplib?,connection.starttls()
+How do you login to a connection with smtplib?,"connection.login(user=MY_EMAIL, password=MY_PASSWORD)"
+How do you send an email with smtplib?,"connection.sendmail(from_addr=MY_EMAIL, to_addrs=MY_EMAIL, msg=f""Subject:Daily motivation\n\nHello sunshine"")"

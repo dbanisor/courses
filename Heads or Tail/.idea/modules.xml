@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Banker Roulette/.idea/Banker Roulette.iml" filepath="$PROJECT_DIR$/../Banker Roulette/.idea/Banker Roulette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Heads or Tail.iml" filepath="$PROJECT_DIR$/.idea/Heads or Tail.iml" />
+    </modules>
+  </component>
+</project>
